@@ -12,10 +12,10 @@ import styles from './App.module.css'
 
 // 模板占位符：生成仓库时由脚本替换为具体知识点信息
 // 占位约定见 .kiro/specs/tasks.md：替换 {{TOPIC_TITLE}} / {{TOPIC_NUMBER}} / {{TOPIC_CATEGORY}} / {{REPO_NAME}}
-const TOPIC_TITLE = '{{TOPIC_TITLE}}' // PLACEHOLDER
-const TOPIC_NUMBER = 0 // PLACEHOLDER {{TOPIC_NUMBER}}
-const TOPIC_CATEGORY = '{{TOPIC_CATEGORY}}' // PLACEHOLDER
-const REPO_NAME = '{{REPO_NAME}}' // PLACEHOLDER
+const TOPIC_TITLE = 'WAL 预写日志'
+const TOPIC_NUMBER = 10
+const TOPIC_CATEGORY = '存储引擎'
+const REPO_NAME = 'hbase-10-wal'
 const REPO_URL = `https://github.com/CC11001100/${REPO_NAME}`
 
 const PRESETS: PresetData[] = [

@@ -1,4 +1,4 @@
-# 任务：{{TOPIC_TITLE}}
+# 任务：WAL 预写日志
 
 - [ ] 替换占位符（REPO_NAME / TOPIC_TITLE / TOPIC_NUMBER / TOPIC_CATEGORY）
 - [ ] 实现 `src/algorithms/stepGenerator.ts` 的 `generateSteps`
